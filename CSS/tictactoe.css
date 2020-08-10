@@ -1,0 +1,47 @@
+.fakeimg {
+    width: 30%;
+    height: 150px;
+    background: #aaa;
+}
+
+.border {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+}
+
+
+table {
+    max-width: 420px;
+    max-height: 420px;
+    width: 85vw;  /* 85% of the viewport (body) width */
+    height: 85vw;
+    border-spacing: 4px 2px;  /* Space between cells */
+  }
+
+td {
+    padding: 0;
+    width: 33%;  /* Every cell should be 1/3 of table height (and width) */
+    height: 33%;
+    background-color: rgb(230, 230, 230);
+    font-size: 300%;
+    text-align: center;
+}
+
+.box_X {
+    background-color: rgb(115, 255, 102);
+}
+
+.box_O {
+    background-color: rgb(255, 109, 109);
+}
+
+.win_box {
+    background-color: rgb(220, 46, 255)
+}
+
+#input_rounds_form {
+    display: none;
+}
+
