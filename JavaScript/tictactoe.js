@@ -65,7 +65,7 @@ function update_scores() {
 function play_mode(element) {
     // As impossible mode is not currently available. 
     game_type = element.value;
-    if ((game_type == 1) || (game_type == 0)) {
+    if ((game_type == 1) || (game_type == 3)) {
         document.getElementById("new_game_button").disabled = false ;
         document.getElementById("reset_score_button").disabled = false ;
     }
